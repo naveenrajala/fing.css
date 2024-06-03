@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{
+        background-image: url("https://c4.wallpaperflare.com/wallpaper/24/748/966/art-digital-fantasy-fields-wallpaper-thumb.jpg");
+        background-size: cover;
+        font-family: sans-serif;
+    }
+
+    h3{
+        text-align: center;
+        color: white;
+    }
+    
+
+    input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+    }
+
+input[type=submit] {
+  background-color: #5706ee;
+  color: white;
+  padding: 12px ;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #b10e96;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #07c3e4;
+  padding-top: 1cm;
+  padding-left: 1cm;
+  padding-right: 1cm;
+  margin-left: 9cm;
+  margin-right: 9cm;
+
+}
+    </style>
+</head>
+<body>
+    <h3>contact form</h3>
+    <div class="cantainer">
+      <form action="/action_page.php ">
+        <label for="fname">first name</label>
+        <input type="text" id="fname" name="firstname" placeholder=" your name..">
+        <label for="iname">lastname</label>
+        <input type="text" id="iname" name="lastname" placeholder="your last name..">
+        <label for="country">country</label>
+            <select name="country" id="country">
+        <option value="australia">india</option>
+        <option value="canada">canada</option>
+        <option value="usa">usa</option>
+    </select>
+    <label for="subject">subjact</label>
+      <textarea name="subject" id="subject" style="height: 100px;"></textarea>
+      <input type="submit" style="background-color: rgb(23, 23, 231);" value="submit">
+      </form>
+    </div>
+</body>
+</html>
